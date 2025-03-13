@@ -1,0 +1,94 @@
+
+.root {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #F4F4F4;
+}
+
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4CAF50;
+    -fx-padding: 10px;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+}
+
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+
+.text-area {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+    -fx-pref-height: 100px;
+    -fx-pref-width: 400px;
+}
+
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+}
+
+
+.hbox, .vbox {
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+    -fx-padding: 10px;
+}
+
+
+.hbox {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 1px;
+}
+
+.vbox {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 1px;
+}
+
+
+.button, .text-field, .text-area {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 2, 2);
+}
+
+
+.text-area, .text-field {
+    -fx-text-fill: #333333;
+}
+
+
+.stack-pane {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20px;
+}
